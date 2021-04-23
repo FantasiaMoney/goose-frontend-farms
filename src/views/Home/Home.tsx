@@ -57,10 +57,10 @@ const Home: React.FC = () => {
   const TranslateString = useI18n()
 
   return (
-    <Page>
-      <Hero>
+    <Page> 
+      <Hero>  
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Goose Finance')}
+        <img src="/images/MainTitle.png" alt="title" style={{"height" : "100%", "width" : "50%"}}/>
         </Heading>
         <Text>{TranslateString(578, 'Top 3 best DEFI app on Binance Smart Chain.')}</Text>
       </Hero>
